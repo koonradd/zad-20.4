@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router";
-import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap/dist/css/bootstrap-theme.css";
+import * as bootstrap from "bootstrap/dist/css/bootstrap.css";
+import * as bootstrapTheme from "bootstrap/dist/css/bootstrap-theme.css";
+
 
 const Navigation = props => (
   <div>
